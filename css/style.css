@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-left: 40%;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.with-blur-backdrop {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+  }
+.container{
+    display: inline;
+    margin-left: -50%;
+}
+.container img{
+    width: 60%;
+    height: auto;
+}
+#form{
+    display: fixed;
+    margin-top: -61%;
+    width: 555px;
+    height: 718px;
+    padding: 16%;
+    padding-top: 5%;
+    background-color: skyblue;
+    margin-left: 38%;
+}
+
+#form h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 300%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+button{
+    margin-top: 15%;
+    margin-left: 26%;
+    border-style: none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    padding: 12px 35px;
+}
+input{
+    display: fixed;
+    margin-left: -25%;
+    border-style: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 150%;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.container2 img{
+    margin-top: 19%;
+    margin-left: -50%;
+}
+.box{
+    margin-top: 50%;
+}
+@media screen and (max-width: 768px) {
+    body {
+        padding-left: 10%;
+    }
+
+    #form {
+        width: 90%;
+        padding: 5%;
+    }
+
+    input {
+        margin-left: 0;
+        width: 100%;
+    }
+}

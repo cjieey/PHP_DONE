@@ -1,0 +1,121 @@
+*{
+    padding: 25px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    background-color: #A99382;
+}
+#form{
+    margin-left: 1200px;
+    margin-top: -45%;
+    background-color: #FFFFFF;
+    width: 30%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+#form1{
+    margin-left: 1200px;
+    margin-top: -40%;
+    background-color: #FFFFFF;
+    width: 30%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    padding-left: 2.5%;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+#form1 h1{
+    margin-top: 10%;
+    margin-left: -11px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+#container{
+    padding: 25px;
+    background-color: white;
+    height:850px;
+    width: 1800px;
+    border-radius: 30px;
+}
+#contain{
+    padding: 25px;
+    background-color: white;
+    height:848px;
+    width: 1800px;
+    border-radius: 30px;
+}
+#container h1{
+    margin-left: 500px;
+}
+#form h1{
+    margin-top: 30%;
+    margin-left: -10px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+#btnn{
+    margin-top: 30px;
+    font-weight: bold;
+    margin-left: 34%;
+    text-align: center;
+    color: white;  
+    background-color: #50281A;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+    border-radius: 10px;
+    border-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    margin-left: 35%;
+}
+input{
+    background-color: gray;
+    color: white;
+    border-style: none;
+    padding: 15px;
+    padding-right: 150px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+::placeholder {
+    color: white;
+    opacity: 1; 
+  }
+
+#btn{
+    margin-top: 70px;
+    font-weight: bold;
+    margin-left: 40%;
+    color: white;  
+    background-color: #50281A;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+    border-radius: 10px;
+    border-style: none;
+}
+#btn:hover{
+    background-color: gray;
+}
+.logo{
+    width: 40%;
+    height: auto;
+    margin-left: 15%;
+}
+@media screen and (max-width: 700px){
+    #form{
+        width: 65%;
+        padding: 40px;
+    }
+}
